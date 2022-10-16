@@ -27,7 +27,7 @@ class _ReportState extends State<Report> {
                     context: context,
                     builder: (context) => AlertDialog(
                       scrollable: true,
-                      backgroundColor: Color.fromARGB(255, 3, 12, 34),
+                      backgroundColor: Colors.white,
                       content: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
