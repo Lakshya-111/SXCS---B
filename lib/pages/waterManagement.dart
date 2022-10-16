@@ -75,7 +75,7 @@ Use of environment-friendly products: By using soluble products that do not go o
                               textAlign: TextAlign.center,
                               style : TextStyle(
                                 fontFamily: "Xavier3",
-                                color: Colors.black,
+                                color: Colors.white,
                                 fontSize: 0.025 * MediaQuery.of(context).size.height,
                               ),
 
