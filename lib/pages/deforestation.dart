@@ -27,7 +27,7 @@ class _DeforestationState extends State<Deforestation> {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         shadowColor: Colors.transparent,
-        title: Text('Deforestation'),
+        title: Text('Forest Conservation'),
         centerTitle: true,
       ),
       body: Container(
