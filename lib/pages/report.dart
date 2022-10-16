@@ -31,9 +31,9 @@ class _ReportState extends State<Report> {
                       content: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Text(c.location[index],style: TextStyle(color: Colors.white)),
-                          Text(c.image[index],style: TextStyle(color: Colors.white)),
-                          Text(c.description[index],style: TextStyle(color: Colors.white)),
+                          Text(c.location[index],style: TextStyle(color: Colors.black)),
+                          Text(c.image[index],style: TextStyle(color: Colors.black)),
+                          Text(c.description[index],style: TextStyle(color: Colors.black)),
                         ],
                       ),
                     ),
