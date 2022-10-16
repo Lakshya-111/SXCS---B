@@ -40,7 +40,7 @@ class _ReportState extends State<Report> {
                   );
                 },
                 title: Text(c.description[index]),
-                subtitle: Text(c.location[index]),
+                subtitle: Text(c.link[index]),
               ),
             );
           }
