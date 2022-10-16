@@ -71,7 +71,7 @@ class _registerHospState extends State<registerHosp> {
                       });
                     },
                     decoration:
-                    InputDecoration(filled: true, fillColor: Colors.white, hintText: 'Category[Medical/Fire/Police]', enabledBorder: OutlineInputBorder(
+                    InputDecoration(filled: true, fillColor: Colors.white, hintText: 'Category[FOREST/WASTE/WATER]', enabledBorder: OutlineInputBorder(
                       borderSide: BorderSide(color: Colors.white, width: 2.0),
                     ),
                       focusedBorder: OutlineInputBorder(
@@ -99,23 +99,6 @@ class _registerHospState extends State<registerHosp> {
                   ),
                 ),
                 SizedBox(height: 20),
-                SizedBox(width: 0.5*MediaQuery.of(context).size.width,
-                  child: TextFormField(
-                    onChanged: (val){
-                      setState(() {
-                        Gid = val;
-                      });
-                    },
-                    decoration:
-                    InputDecoration(filled: true, fillColor: Colors.white, hintText: 'Government ID', enabledBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.white, width: 2.0),
-                    ),
-                      focusedBorder: OutlineInputBorder(
-                        borderSide:
-                        BorderSide(color: Colors.indigo.shade700, width: 2.0),
-                      ),),
-                  ),
-                ),
                 SizedBox(height: 20),
                 SizedBox(width: 0.5*MediaQuery.of(context).size.width,
                   child: TextFormField(
