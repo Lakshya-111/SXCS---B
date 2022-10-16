@@ -1,4 +1,4 @@
-//hospital registration page
+
 import 'package:flutter/material.dart';
 import 'package:x_code_environment/pages/report.dart';
 import '../services/constants.dart' as c;
